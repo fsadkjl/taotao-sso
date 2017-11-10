@@ -1,0 +1,113 @@
+2017-11-10 00:16:17,218 [http-bio-8084-exec-1] INFO  [com.wjl.sso.service.UserServiceImpl] - 进入到sso的校验登录系统中,cookies中的token:null
+2017-11-10 00:16:17,220 [http-bio-8084-exec-1] INFO  [com.wjl.sso.service.UserServiceImpl] - 处理后的token:null
+2017-11-10 00:16:17,226 [http-bio-8084-exec-1] INFO  [com.wjl.sso.dao.JedisSingle] - com.wjl.sso.dao.JedisSingle:get调用了get(null)
+2017-11-10 00:16:17,226 [http-bio-8084-exec-1] INFO  [com.wjl.sso.dao.JedisSingle] - get:null
+2017-11-10 00:16:17,227 [http-bio-8084-exec-1] INFO  [com.wjl.sso.service.UserServiceImpl] - 根据token查询了redis,得到的结果是:null
+2017-11-10 00:16:17,234 [http-bio-8084-exec-1] ERROR [com.wjl.sso.service.UserServiceImpl] - session过期，请重新登录
+2017-11-10 00:16:18,549 [http-bio-8084-exec-10] WARN  [org.springframework.web.servlet.PageNotFound] - No mapping found for HTTP request with URI [/favicon.ico] in DispatcherServlet with name 'SpringMVC'
+2017-11-10 00:16:39,581 [http-bio-8084-exec-1] WARN  [org.springframework.web.servlet.PageNotFound] - No mapping found for HTTP request with URI [/user/check/%E5%90%B4%E5%85%88%E7%94%9F/1] in DispatcherServlet with name 'SpringMVC'
+2017-11-10 00:16:44,424 [http-bio-8084-exec-1] INFO  [com.alibaba.druid.pool.DruidDataSource] - {dataSource-1} inited
+2017-11-10 00:16:48,183 [http-bio-8084-exec-1] WARN  [org.springframework.web.servlet.PageNotFound] - No mapping found for HTTP request with URI [/user/check/%E5%90%B4%E5%85%88%E7%94%9F/1] in DispatcherServlet with name 'SpringMVC'
+2017-11-10 00:16:51,009 [http-bio-8084-exec-1] WARN  [org.springframework.web.servlet.PageNotFound] - No mapping found for HTTP request with URI [/user/check/%E5%90%B4%E5%85%88%E7%94%9F/1] in DispatcherServlet with name 'SpringMVC'
+2017-11-10 00:16:51,791 [http-bio-8084-exec-1] WARN  [org.springframework.web.servlet.PageNotFound] - No mapping found for HTTP request with URI [/user/check/%E5%90%B4%E5%85%88%E7%94%9F/1] in DispatcherServlet with name 'SpringMVC'
+2017-11-10 00:16:53,135 [http-bio-8084-exec-1] WARN  [org.springframework.web.servlet.PageNotFound] - No mapping found for HTTP request with URI [/user/check/%E5%90%B4%E5%85%88%E7%94%9F/1] in DispatcherServlet with name 'SpringMVC'
+2017-11-10 00:17:11,110 [http-bio-8084-exec-1] WARN  [org.springframework.web.servlet.PageNotFound] - No mapping found for HTTP request with URI [/user/check/%E5%90%B4%E5%85%88%E7%94%9F/1] in DispatcherServlet with name 'SpringMVC'
+2017-11-10 00:17:12,295 [http-bio-8084-exec-1] WARN  [org.springframework.web.servlet.PageNotFound] - No mapping found for HTTP request with URI [/user/check/%E5%90%B4%E5%85%88%E7%94%9F/1] in DispatcherServlet with name 'SpringMVC'
+2017-11-10 00:17:17,646 [http-bio-8084-exec-1] WARN  [org.springframework.web.servlet.PageNotFound] - No mapping found for HTTP request with URI [/user/check/%E5%90%B4%E5%85%88%E7%94%9F/1] in DispatcherServlet with name 'SpringMVC'
+2017-11-10 00:17:31,742 [http-bio-8084-exec-1] INFO  [com.wjl.sso.service.UserServiceImpl] - 进入到sso的登录系统中,username:吴先生,password:123
+2017-11-10 00:17:31,744 [http-bio-8084-exec-1] INFO  [com.wjl.sso.service.UserServiceImpl] - 吴先生:用户登录成功
+2017-11-10 00:17:31,745 [http-bio-8084-exec-1] INFO  [com.wjl.sso.service.UserServiceImpl] - 开始生成用户token
+2017-11-10 00:17:31,752 [http-bio-8084-exec-1] INFO  [com.wjl.sso.dao.JedisSingle] - com.wjl.sso.dao.JedisSingle:set调用了set(userSession:c31747e1-ec37-46c6-b1d8-615e14b0ca1d)
+2017-11-10 00:17:31,752 [http-bio-8084-exec-1] INFO  [com.wjl.sso.dao.JedisSingle] - set:OK
+2017-11-10 00:17:31,754 [http-bio-8084-exec-1] INFO  [com.wjl.sso.service.UserServiceImpl] - 将token:userSession:c31747e1-ec37-46c6-b1d8-615e14b0ca1d写入到redis中
+2017-11-10 00:17:33,052 [http-bio-8084-exec-1] INFO  [com.wjl.sso.service.UserServiceImpl] - 进入到sso的校验登录系统中,cookies中的token:"userSession:c31747e1-ec37-46c6-b1d8-615e14b0ca1d"
+2017-11-10 00:17:33,053 [http-bio-8084-exec-1] INFO  [com.wjl.sso.service.UserServiceImpl] - 处理后的token:userSession:c31747e1-ec37-46c6-b1d8-615e14b0ca1d
+2017-11-10 00:17:33,054 [http-bio-8084-exec-1] INFO  [com.wjl.sso.dao.JedisSingle] - com.wjl.sso.dao.JedisSingle:get调用了get(userSession:c31747e1-ec37-46c6-b1d8-615e14b0ca1d)
+2017-11-10 00:17:33,054 [http-bio-8084-exec-1] INFO  [com.wjl.sso.dao.JedisSingle] - get:{"id":7,"username":"吴先生","password":null,"phone":"123","email":"123","created":1510244243000,"updated":1510244243000}
+2017-11-10 00:17:33,054 [http-bio-8084-exec-1] INFO  [com.wjl.sso.service.UserServiceImpl] - 根据token查询了redis,得到的结果是:{"id":7,"username":"吴先生","password":null,"phone":"123","email":"123","created":1510244243000,"updated":1510244243000}
+2017-11-10 00:17:36,742 [http-bio-8084-exec-1] INFO  [com.wjl.sso.service.UserServiceImpl] - 进入到sso的校验登录系统中,cookies中的token:"userSession:c31747e1-ec37-46c6-b1d8-615e14b0ca1d"
+2017-11-10 00:17:36,742 [http-bio-8084-exec-1] INFO  [com.wjl.sso.service.UserServiceImpl] - 处理后的token:userSession:c31747e1-ec37-46c6-b1d8-615e14b0ca1d
+2017-11-10 00:17:36,743 [http-bio-8084-exec-1] INFO  [com.wjl.sso.dao.JedisSingle] - com.wjl.sso.dao.JedisSingle:get调用了get(userSession:c31747e1-ec37-46c6-b1d8-615e14b0ca1d)
+2017-11-10 00:17:36,743 [http-bio-8084-exec-1] INFO  [com.wjl.sso.dao.JedisSingle] - get:{"id":7,"username":"吴先生","password":null,"phone":"123","email":"123","created":1510244243000,"updated":1510244243000}
+2017-11-10 00:17:36,743 [http-bio-8084-exec-1] INFO  [com.wjl.sso.service.UserServiceImpl] - 根据token查询了redis,得到的结果是:{"id":7,"username":"吴先生","password":null,"phone":"123","email":"123","created":1510244243000,"updated":1510244243000}
+2017-11-10 00:17:44,540 [http-bio-8084-exec-6] INFO  [com.wjl.sso.dao.JedisSingle] - del:1
+2017-11-10 00:17:52,757 [http-bio-8084-exec-1] INFO  [com.wjl.sso.service.UserServiceImpl] - 进入到sso的登录系统中,username:1,password:2
+2017-11-10 00:17:52,759 [http-bio-8084-exec-1] ERROR [com.wjl.sso.service.UserServiceImpl] - 用户名或密码错误
+2017-11-10 00:17:56,851 [http-bio-8084-exec-1] INFO  [com.wjl.sso.service.UserServiceImpl] - 进入到sso的登录系统中,username:1,password:1
+2017-11-10 00:17:56,853 [http-bio-8084-exec-1] INFO  [com.wjl.sso.service.UserServiceImpl] - 1:用户登录成功
+2017-11-10 00:17:56,853 [http-bio-8084-exec-1] INFO  [com.wjl.sso.service.UserServiceImpl] - 开始生成用户token
+2017-11-10 00:17:56,854 [http-bio-8084-exec-1] INFO  [com.wjl.sso.dao.JedisSingle] - com.wjl.sso.dao.JedisSingle:set调用了set(userSession:2def02a9-497e-4276-b2a8-638719b84f63)
+2017-11-10 00:17:56,854 [http-bio-8084-exec-1] INFO  [com.wjl.sso.dao.JedisSingle] - set:OK
+2017-11-10 00:17:56,854 [http-bio-8084-exec-1] INFO  [com.wjl.sso.service.UserServiceImpl] - 将token:userSession:2def02a9-497e-4276-b2a8-638719b84f63写入到redis中
+2017-11-10 00:17:58,069 [http-bio-8084-exec-1] INFO  [com.wjl.sso.service.UserServiceImpl] - 进入到sso的校验登录系统中,cookies中的token:"userSession:2def02a9-497e-4276-b2a8-638719b84f63"
+2017-11-10 00:17:58,069 [http-bio-8084-exec-1] INFO  [com.wjl.sso.service.UserServiceImpl] - 处理后的token:userSession:2def02a9-497e-4276-b2a8-638719b84f63
+2017-11-10 00:17:58,071 [http-bio-8084-exec-1] INFO  [com.wjl.sso.dao.JedisSingle] - com.wjl.sso.dao.JedisSingle:get调用了get(userSession:2def02a9-497e-4276-b2a8-638719b84f63)
+2017-11-10 00:17:58,071 [http-bio-8084-exec-1] INFO  [com.wjl.sso.dao.JedisSingle] - get:{"id":6,"username":"1","password":null,"phone":"1","email":"1","created":1509734610000,"updated":1509734610000}
+2017-11-10 00:17:58,071 [http-bio-8084-exec-1] INFO  [com.wjl.sso.service.UserServiceImpl] - 根据token查询了redis,得到的结果是:{"id":6,"username":"1","password":null,"phone":"1","email":"1","created":1509734610000,"updated":1509734610000}
+2017-11-10 00:18:01,486 [http-bio-8084-exec-1] INFO  [com.wjl.sso.service.UserServiceImpl] - 进入到sso的校验登录系统中,cookies中的token:"userSession:2def02a9-497e-4276-b2a8-638719b84f63"
+2017-11-10 00:18:01,486 [http-bio-8084-exec-1] INFO  [com.wjl.sso.service.UserServiceImpl] - 处理后的token:userSession:2def02a9-497e-4276-b2a8-638719b84f63
+2017-11-10 00:18:01,487 [http-bio-8084-exec-1] INFO  [com.wjl.sso.dao.JedisSingle] - com.wjl.sso.dao.JedisSingle:get调用了get(userSession:2def02a9-497e-4276-b2a8-638719b84f63)
+2017-11-10 00:18:01,487 [http-bio-8084-exec-1] INFO  [com.wjl.sso.dao.JedisSingle] - get:{"id":6,"username":"1","password":null,"phone":"1","email":"1","created":1509734610000,"updated":1509734610000}
+2017-11-10 00:18:01,487 [http-bio-8084-exec-1] INFO  [com.wjl.sso.service.UserServiceImpl] - 根据token查询了redis,得到的结果是:{"id":6,"username":"1","password":null,"phone":"1","email":"1","created":1509734610000,"updated":1509734610000}
+2017-11-10 00:19:59,994 [http-bio-8084-exec-10] INFO  [com.wjl.sso.service.UserServiceImpl] - 进入到sso的校验登录系统中,cookies中的token:null
+2017-11-10 00:19:59,994 [http-bio-8084-exec-10] INFO  [com.wjl.sso.service.UserServiceImpl] - 处理后的token:null
+2017-11-10 00:19:59,995 [http-bio-8084-exec-10] INFO  [com.wjl.sso.dao.JedisSingle] - com.wjl.sso.dao.JedisSingle:get调用了get(null)
+2017-11-10 00:19:59,995 [http-bio-8084-exec-10] INFO  [com.wjl.sso.dao.JedisSingle] - get:null
+2017-11-10 00:19:59,995 [http-bio-8084-exec-10] INFO  [com.wjl.sso.service.UserServiceImpl] - 根据token查询了redis,得到的结果是:null
+2017-11-10 00:19:59,995 [http-bio-8084-exec-10] ERROR [com.wjl.sso.service.UserServiceImpl] - session过期，请重新登录
+2017-11-10 00:20:00,106 [http-bio-8084-exec-5] WARN  [org.springframework.web.servlet.PageNotFound] - No mapping found for HTTP request with URI [/favicon.ico] in DispatcherServlet with name 'SpringMVC'
+2017-11-10 00:20:15,802 [http-bio-8084-exec-5] INFO  [com.wjl.sso.service.UserServiceImpl] - 进入到sso的登录系统中,username:吴先生,password:1
+2017-11-10 00:20:15,805 [http-bio-8084-exec-5] ERROR [com.wjl.sso.service.UserServiceImpl] - 用户名或密码错误
+2017-11-10 00:20:19,602 [http-bio-8084-exec-5] INFO  [com.wjl.sso.service.UserServiceImpl] - 进入到sso的登录系统中,username:吴先生,password:123
+2017-11-10 00:20:19,605 [http-bio-8084-exec-5] INFO  [com.wjl.sso.service.UserServiceImpl] - 吴先生:用户登录成功
+2017-11-10 00:20:19,605 [http-bio-8084-exec-5] INFO  [com.wjl.sso.service.UserServiceImpl] - 开始生成用户token
+2017-11-10 00:20:19,606 [http-bio-8084-exec-5] INFO  [com.wjl.sso.dao.JedisSingle] - com.wjl.sso.dao.JedisSingle:set调用了set(userSession:e49af0d1-9b88-41da-b454-5beedacf46ab)
+2017-11-10 00:20:19,606 [http-bio-8084-exec-5] INFO  [com.wjl.sso.dao.JedisSingle] - set:OK
+2017-11-10 00:20:19,606 [http-bio-8084-exec-5] INFO  [com.wjl.sso.service.UserServiceImpl] - 将token:userSession:e49af0d1-9b88-41da-b454-5beedacf46ab写入到redis中
+2017-11-10 00:20:20,629 [http-bio-8084-exec-1] INFO  [com.wjl.sso.service.UserServiceImpl] - 进入到sso的校验登录系统中,cookies中的token:userSession:e49af0d1-9b88-41da-b454-5beedacf46ab
+2017-11-10 00:20:20,630 [http-bio-8084-exec-1] INFO  [com.wjl.sso.service.UserServiceImpl] - 处理后的token:userSession:e49af0d1-9b88-41da-b454-5beedacf46ab
+2017-11-10 00:20:20,631 [http-bio-8084-exec-1] INFO  [com.wjl.sso.dao.JedisSingle] - com.wjl.sso.dao.JedisSingle:get调用了get(userSession:e49af0d1-9b88-41da-b454-5beedacf46ab)
+2017-11-10 00:20:20,631 [http-bio-8084-exec-1] INFO  [com.wjl.sso.dao.JedisSingle] - get:{"id":7,"username":"吴先生","password":null,"phone":"123","email":"123","created":1510244243000,"updated":1510244243000}
+2017-11-10 00:20:20,631 [http-bio-8084-exec-1] INFO  [com.wjl.sso.service.UserServiceImpl] - 根据token查询了redis,得到的结果是:{"id":7,"username":"吴先生","password":null,"phone":"123","email":"123","created":1510244243000,"updated":1510244243000}
+2017-11-10 00:20:20,952 [http-bio-8084-exec-5] INFO  [com.wjl.sso.service.UserServiceImpl] - 进入到sso的校验登录系统中,cookies中的token:"userSession:e49af0d1-9b88-41da-b454-5beedacf46ab"
+2017-11-10 00:20:20,952 [http-bio-8084-exec-5] INFO  [com.wjl.sso.service.UserServiceImpl] - 处理后的token:userSession:e49af0d1-9b88-41da-b454-5beedacf46ab
+2017-11-10 00:20:20,953 [http-bio-8084-exec-5] INFO  [com.wjl.sso.dao.JedisSingle] - com.wjl.sso.dao.JedisSingle:get调用了get(userSession:e49af0d1-9b88-41da-b454-5beedacf46ab)
+2017-11-10 00:20:20,953 [http-bio-8084-exec-5] INFO  [com.wjl.sso.dao.JedisSingle] - get:{"id":7,"username":"吴先生","password":null,"phone":"123","email":"123","created":1510244243000,"updated":1510244243000}
+2017-11-10 00:20:20,954 [http-bio-8084-exec-5] INFO  [com.wjl.sso.service.UserServiceImpl] - 根据token查询了redis,得到的结果是:{"id":7,"username":"吴先生","password":null,"phone":"123","email":"123","created":1510244243000,"updated":1510244243000}
+2017-11-10 00:20:29,121 [http-bio-8084-exec-2] INFO  [com.wjl.sso.service.UserServiceImpl] - 进入到sso的校验登录系统中,cookies中的token:userSession:e49af0d1-9b88-41da-b454-5beedacf46ab
+2017-11-10 00:20:29,121 [http-bio-8084-exec-2] INFO  [com.wjl.sso.service.UserServiceImpl] - 处理后的token:userSession:e49af0d1-9b88-41da-b454-5beedacf46ab
+2017-11-10 00:20:29,121 [http-bio-8084-exec-2] INFO  [com.wjl.sso.dao.JedisSingle] - com.wjl.sso.dao.JedisSingle:get调用了get(userSession:e49af0d1-9b88-41da-b454-5beedacf46ab)
+2017-11-10 00:20:29,122 [http-bio-8084-exec-2] INFO  [com.wjl.sso.dao.JedisSingle] - get:{"id":7,"username":"吴先生","password":null,"phone":"123","email":"123","created":1510244243000,"updated":1510244243000}
+2017-11-10 00:20:29,122 [http-bio-8084-exec-2] INFO  [com.wjl.sso.service.UserServiceImpl] - 根据token查询了redis,得到的结果是:{"id":7,"username":"吴先生","password":null,"phone":"123","email":"123","created":1510244243000,"updated":1510244243000}
+2017-11-10 00:20:30,383 [http-bio-8084-exec-5] INFO  [com.wjl.sso.service.UserServiceImpl] - 进入到sso的校验登录系统中,cookies中的token:userSession:e49af0d1-9b88-41da-b454-5beedacf46ab
+2017-11-10 00:20:30,383 [http-bio-8084-exec-5] INFO  [com.wjl.sso.service.UserServiceImpl] - 处理后的token:userSession:e49af0d1-9b88-41da-b454-5beedacf46ab
+2017-11-10 00:20:30,411 [http-bio-8084-exec-5] INFO  [com.wjl.sso.dao.JedisSingle] - com.wjl.sso.dao.JedisSingle:get调用了get(userSession:e49af0d1-9b88-41da-b454-5beedacf46ab)
+2017-11-10 00:20:30,411 [http-bio-8084-exec-5] INFO  [com.wjl.sso.dao.JedisSingle] - get:{"id":7,"username":"吴先生","password":null,"phone":"123","email":"123","created":1510244243000,"updated":1510244243000}
+2017-11-10 00:20:30,411 [http-bio-8084-exec-5] INFO  [com.wjl.sso.service.UserServiceImpl] - 根据token查询了redis,得到的结果是:{"id":7,"username":"吴先生","password":null,"phone":"123","email":"123","created":1510244243000,"updated":1510244243000}
+2017-11-10 00:20:36,241 [http-bio-8084-exec-5] INFO  [com.wjl.sso.service.UserServiceImpl] - 进入到sso的校验登录系统中,cookies中的token:"userSession:e49af0d1-9b88-41da-b454-5beedacf46ab"
+2017-11-10 00:20:36,242 [http-bio-8084-exec-5] INFO  [com.wjl.sso.service.UserServiceImpl] - 处理后的token:userSession:e49af0d1-9b88-41da-b454-5beedacf46ab
+2017-11-10 00:20:36,243 [http-bio-8084-exec-5] INFO  [com.wjl.sso.dao.JedisSingle] - com.wjl.sso.dao.JedisSingle:get调用了get(userSession:e49af0d1-9b88-41da-b454-5beedacf46ab)
+2017-11-10 00:20:36,243 [http-bio-8084-exec-5] INFO  [com.wjl.sso.dao.JedisSingle] - get:{"id":7,"username":"吴先生","password":null,"phone":"123","email":"123","created":1510244243000,"updated":1510244243000}
+2017-11-10 00:20:36,243 [http-bio-8084-exec-5] INFO  [com.wjl.sso.service.UserServiceImpl] - 根据token查询了redis,得到的结果是:{"id":7,"username":"吴先生","password":null,"phone":"123","email":"123","created":1510244243000,"updated":1510244243000}
+2017-11-10 00:20:37,411 [http-bio-8084-exec-5] INFO  [com.wjl.sso.service.UserServiceImpl] - 进入到sso的校验登录系统中,cookies中的token:"userSession:e49af0d1-9b88-41da-b454-5beedacf46ab"
+2017-11-10 00:20:37,411 [http-bio-8084-exec-5] INFO  [com.wjl.sso.service.UserServiceImpl] - 处理后的token:userSession:e49af0d1-9b88-41da-b454-5beedacf46ab
+2017-11-10 00:20:37,414 [http-bio-8084-exec-5] INFO  [com.wjl.sso.dao.JedisSingle] - com.wjl.sso.dao.JedisSingle:get调用了get(userSession:e49af0d1-9b88-41da-b454-5beedacf46ab)
+2017-11-10 00:20:37,414 [http-bio-8084-exec-5] INFO  [com.wjl.sso.dao.JedisSingle] - get:{"id":7,"username":"吴先生","password":null,"phone":"123","email":"123","created":1510244243000,"updated":1510244243000}
+2017-11-10 00:20:37,414 [http-bio-8084-exec-5] INFO  [com.wjl.sso.service.UserServiceImpl] - 根据token查询了redis,得到的结果是:{"id":7,"username":"吴先生","password":null,"phone":"123","email":"123","created":1510244243000,"updated":1510244243000}
+2017-11-10 00:20:51,504 [http-bio-8084-exec-6] WARN  [org.springframework.web.servlet.PageNotFound] - No mapping found for HTTP request with URI [/favicon.ico] in DispatcherServlet with name 'SpringMVC'
+2017-11-10 00:20:54,909 [http-bio-8084-exec-6] INFO  [com.wjl.sso.service.UserServiceImpl] - 进入到sso的登录系统中,username:1,password:1
+2017-11-10 00:20:54,911 [http-bio-8084-exec-6] INFO  [com.wjl.sso.service.UserServiceImpl] - 1:用户登录成功
+2017-11-10 00:20:54,911 [http-bio-8084-exec-6] INFO  [com.wjl.sso.service.UserServiceImpl] - 开始生成用户token
+2017-11-10 00:20:54,912 [http-bio-8084-exec-6] INFO  [com.wjl.sso.dao.JedisSingle] - com.wjl.sso.dao.JedisSingle:set调用了set(userSession:4c3ac8a1-4d4b-416e-90b3-75996be6372a)
+2017-11-10 00:20:54,912 [http-bio-8084-exec-6] INFO  [com.wjl.sso.dao.JedisSingle] - set:OK
+2017-11-10 00:20:54,913 [http-bio-8084-exec-6] INFO  [com.wjl.sso.service.UserServiceImpl] - 将token:userSession:4c3ac8a1-4d4b-416e-90b3-75996be6372a写入到redis中
+2017-11-10 00:20:56,020 [http-bio-8084-exec-6] INFO  [com.wjl.sso.service.UserServiceImpl] - 进入到sso的校验登录系统中,cookies中的token:"userSession:4c3ac8a1-4d4b-416e-90b3-75996be6372a"
+2017-11-10 00:20:56,020 [http-bio-8084-exec-6] INFO  [com.wjl.sso.service.UserServiceImpl] - 处理后的token:userSession:4c3ac8a1-4d4b-416e-90b3-75996be6372a
+2017-11-10 00:20:56,021 [http-bio-8084-exec-6] INFO  [com.wjl.sso.dao.JedisSingle] - com.wjl.sso.dao.JedisSingle:get调用了get(userSession:4c3ac8a1-4d4b-416e-90b3-75996be6372a)
+2017-11-10 00:20:56,021 [http-bio-8084-exec-6] INFO  [com.wjl.sso.dao.JedisSingle] - get:{"id":6,"username":"1","password":null,"phone":"1","email":"1","created":1509734610000,"updated":1509734610000}
+2017-11-10 00:20:56,021 [http-bio-8084-exec-6] INFO  [com.wjl.sso.service.UserServiceImpl] - 根据token查询了redis,得到的结果是:{"id":6,"username":"1","password":null,"phone":"1","email":"1","created":1509734610000,"updated":1509734610000}
+2017-11-10 00:21:02,470 [http-bio-8084-exec-6] INFO  [com.wjl.sso.service.UserServiceImpl] - 进入到sso的校验登录系统中,cookies中的token:"userSession:4c3ac8a1-4d4b-416e-90b3-75996be6372a"
+2017-11-10 00:21:02,470 [http-bio-8084-exec-6] INFO  [com.wjl.sso.service.UserServiceImpl] - 处理后的token:userSession:4c3ac8a1-4d4b-416e-90b3-75996be6372a
+2017-11-10 00:21:02,471 [http-bio-8084-exec-6] INFO  [com.wjl.sso.dao.JedisSingle] - com.wjl.sso.dao.JedisSingle:get调用了get(userSession:4c3ac8a1-4d4b-416e-90b3-75996be6372a)
+2017-11-10 00:21:02,471 [http-bio-8084-exec-6] INFO  [com.wjl.sso.dao.JedisSingle] - get:{"id":6,"username":"1","password":null,"phone":"1","email":"1","created":1509734610000,"updated":1509734610000}
+2017-11-10 00:21:02,471 [http-bio-8084-exec-6] INFO  [com.wjl.sso.service.UserServiceImpl] - 根据token查询了redis,得到的结果是:{"id":6,"username":"1","password":null,"phone":"1","email":"1","created":1509734610000,"updated":1509734610000}

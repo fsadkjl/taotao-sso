@@ -1,0 +1,4 @@
+2017-11-10 00:16:17,234 [http-bio-8084-exec-1] ERROR [com.wjl.sso.service.UserServiceImpl] - session过期，请重新登录
+2017-11-10 00:17:52,759 [http-bio-8084-exec-1] ERROR [com.wjl.sso.service.UserServiceImpl] - 用户名或密码错误
+2017-11-10 00:19:59,995 [http-bio-8084-exec-10] ERROR [com.wjl.sso.service.UserServiceImpl] - session过期，请重新登录
+2017-11-10 00:20:15,805 [http-bio-8084-exec-5] ERROR [com.wjl.sso.service.UserServiceImpl] - 用户名或密码错误
